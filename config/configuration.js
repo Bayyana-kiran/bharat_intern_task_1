@@ -1,5 +1,5 @@
 module.exports = {
-    mongoDbUrl : 'mongodb://localhost:27017/tutorial_cms',
+    mongoDbUrl : 'mongodb://localhost:27017/content_system',
     PORT: process.env.PORT || 3000,
     globalVariables: (req, res, next) => {
         res.locals.success_message = req.flash('success-message');
